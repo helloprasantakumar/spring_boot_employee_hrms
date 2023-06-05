@@ -65,11 +65,6 @@ public class EmployeeServiceImpl implements EmployeeService {
                 ))
                 .collect(Collectors.toList());
 
-
-//        for (EmployeeDTO employeeDTO : customEmployeesDatas) {
-//            System.out.println("Name: " + personDTO.getName() + ", Age: " + personDTO.getAge());
-//        }
-
         return customEmployeesDatas;
 
     }
